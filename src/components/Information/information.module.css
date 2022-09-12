@@ -1,11 +1,14 @@
 .container{
-    margin-top: 7%;
+    margin-top:-1%;
+    height: 670px;
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #f1f1f5;
 }
 
 .information{
+    margin-top: 5%;
     position: absolute;
     width: 80%;
     height: 552px;
@@ -14,26 +17,28 @@
     background: #E6E6FC;
     border-radius: 16px;
     align-items: center;
-    background-image: url('./../../images/Coints.png');
+    /* background-image: url('./../../images/Coints.png');
     background-repeat: no-repeat;
     background-size: 450px;
     background-position-x: right 180px;
-    background-position-y: top -120px;
+    background-position-y: top -120px; */
 }
 
 .information_in{
-    margin-top: 5%;
+    height: 500px;
     width: 90%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
 }
 
-.information_in h2{
+.title h2{
+    margin-left: 5%;
     width: 40%;
     height: 96px;
     left: 40px;
-    top: 40px;
+    top: 20px;
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 600;
@@ -42,7 +47,21 @@
     color: #3F3E42;
 }
 
+.title{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.title img{
+    margin-top: -9%;
+    width: 35%;
+    margin-right: 8%
+}
+
 .logo{
+    margin-top: -3%;
     display: flex;
     justify-content: start;
     align-items: flex-end;
@@ -50,6 +69,7 @@
 }
 
 .logo_in{
+    width: 100%;
     height: 400px;
     margin-left: -3%;
 }
