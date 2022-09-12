@@ -1,0 +1,55 @@
+.container{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.information{
+    position: absolute;
+    width: 80%;
+    height: 552px;
+    display: flex;
+    justify-content: center;
+    background: #E6E6FC;
+    border-radius: 16px;
+    align-items: center;
+    background-image: url('./../../images/Coints.png');
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position-x: right 180px;
+    background-position-y: top -120px;
+}
+
+.information_in{
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.information_in h2{
+    width: 40%;
+    height: 96px;
+    left: 40px;
+    top: 40px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3F3E42;
+}
+
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.logo_in{
+    height: 400px;
+    margin-left: -3%;
+}
