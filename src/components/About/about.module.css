@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_us{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_us_info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about_us_info h1{
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 82px;
+    color: #3F3E42;
+}
+
+.about_us_info h2{font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3F3E42;
+
+}
