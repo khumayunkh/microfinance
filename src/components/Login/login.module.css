@@ -1,0 +1,115 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f5;
+    padding-top: 2%;
+}
+
+.login{
+    width: 80%;
+    height: 552px;
+    background: #FFF2CB;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.login h2{
+    margin-top: 5%;
+    width: 80%;
+    height: 96px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #3F3E42;
+}
+
+.login_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16.9802px;
+    width: 254.7px;
+    height: 317.16px;
+    left: calc(50% - 254.7px/2 + 0.35px);
+    top: calc(50% - 317.16px/2 + 58.58px);
+    background: #FFFFFF;
+    box-shadow: 0px 24px 40px -27.8038px rgba(229, 197, 100, 0.2);
+    border-radius: 11.3201px;
+}
+
+.login_in h3{
+    height: 51px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.6403px;
+    line-height: 25px;
+    text-align: center;
+    color: #3F3E42;
+}
+
+.login_in input{
+    height: 12%;
+    border:  none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5.66007px 11.3201px;
+    left: 0px;
+    right: -0.26px;
+    top: 0px;
+    bottom: 0.28px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px #A6A6DA;
+    border-radius: 5.66007px;
+}
+
+.btn_1{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.90512px 19.8102px 12.7352px;
+    width: 220.74px;
+    height: 42.45px;
+    background: #57B18A;
+    box-shadow: 0px 4px 0px #468F6F;
+    border-radius: 5.66007px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 28px 19px;
+    width: 220.74px;
+    height: 45.47px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px #A6A6DA;
+    border-radius: 8px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #57B18A;
+}
