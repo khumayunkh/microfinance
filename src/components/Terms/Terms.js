@@ -3,8 +3,8 @@ import style from './terms.module.css'
 import puzzle from './../../images/puzzle.svg'
 import cloud from './../../images/cloud.svg'
 
-
 function Terms(){
+    
     return(
         <>
         <div className={style.container}>

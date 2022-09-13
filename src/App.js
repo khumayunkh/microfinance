@@ -3,6 +3,7 @@ import AboutUs from './components/About/About';
 import Header from './components/Header/Header';
 import Information from './components/Information/Information';
 import InfoTime from './components/InformationAboutTime/InfoAboutTime';
+import LoanTerm from './components/LoanTerm/LoanTerm';
 import Login from './components/Login/Login';
 import Terms from './components/Terms/Terms';
 
@@ -15,6 +16,7 @@ function App() {
     <Terms/>
     <Login/>
     <InfoTime/>
+    <LoanTerm/>
     </>
   );
 }
