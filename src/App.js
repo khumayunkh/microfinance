@@ -2,6 +2,7 @@ import './App.css';
 import AboutUs from './components/About/About';
 import Header from './components/Header/Header';
 import Information from './components/Information/Information';
+import InfoTime from './components/InformationAboutTime/InfoAboutTime';
 import Login from './components/Login/Login';
 import Terms from './components/Terms/Terms';
 
@@ -13,6 +14,7 @@ function App() {
     <Information/>
     <Terms/>
     <Login/>
+    <InfoTime/>
     </>
   );
 }

@@ -6,14 +6,37 @@
     background-color: #f1f1f5;
 }
 
-.terms{
+.infoTime{
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.puzzle{
+.time{
+    width: 47%;
+    height: 552px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E6E6FC;
+    border-radius: 16px;    
+}
+
+.time h2{
+    width: 70%;
+    height: 96px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #3F3E42;
+}
+
+.days{
     width: 47%;
     height: 552px;
     display: flex;
@@ -21,14 +44,12 @@
     justify-content: center;
     align-items: center;
     background: #FFE3D8;
-    border-radius: 16px;    
+    border-radius: 16px;   
 }
 
-.puzzle h2{
+.days h2{
     width: 70%;
     height: 96px;
-    left: 40px;
-    top: 40px;
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 500;
@@ -36,37 +57,4 @@
     line-height: 32px;
     text-align: center;
     color: #3F3E42;
-}
-
-.puzzle img{
-    margin-top: 7%;
-}
-
-.cloud{
-    width: 47%;
-    height: 552px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #DDEFE8;
-    border-radius: 16px;
-}
-
-.cloud h2{
-    width: 70%;
-    height: 96px;
-    left: 40px;
-    top: 40px;
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    color: #3F3E42;
-}
-
-.cloud img{
-    margin-top: 7%;
 }
