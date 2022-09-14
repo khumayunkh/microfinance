@@ -1,6 +1,6 @@
 import React from "react";
 import style from './location.module.css'
-import location from './../../images/Location.svg'
+import locations from './../../images/Locations.svg'
 import credit from './../../images/Hand33.svg'
 
 function Location(){
@@ -10,16 +10,18 @@ function Location(){
             <div className={style.location}>
                 <div className={style.location_in}>
                     <h2>
-                        Среднее время обработки заявки - всего 7 минут
+                    ООО МКК «Креатив» работает удаленно по всей России, 
+                    поэтому получение кредита возможно в любое время 
+                    и в любом месте.
                     </h2>
-                    <img src={location}/>
+                    <img src={locations}/>
                 </div>
                 <div className={style.credit}>
                     <h2>
-                        Возможность продлевать 
-                        кредит неограниченное количество раз
+                    Простейшая схема получения и 
+                    погашения кредита без залога и поручителей
                     </h2>
-                    <img src={credit}/>
+                    <img  src={credit}/>
                 </div>
             </div>
         </div>
