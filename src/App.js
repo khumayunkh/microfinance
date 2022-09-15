@@ -1,5 +1,6 @@
 import './App.css';
 import AboutUs from './components/About/About';
+import CallCenter from './components/CallCenter/CallCenter';
 import Header from './components/Header/Header';
 import Information from './components/Information/Information';
 import InfoTime from './components/InformationAboutTime/InfoAboutTime';
@@ -19,6 +20,7 @@ function App() {
     <InfoTime/>
     <LoanTerm/>
     <Location/>
+    <CallCenter/>
     </>
   );
 }
