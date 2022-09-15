@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: 276px;
+    background: #EEF7F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callCenter{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url('./../../images/call.svg');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-x: right 100px;
+    background-position-y: center;
+}
+
+.callCenter h1{
+    width: 40%;
+    height: 52px;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    color: #3F3E42;
+}
+
+.callCenter h2{
+    width: 30%;
+    height: 56px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #57585F;    
+}
