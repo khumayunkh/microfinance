@@ -1,6 +1,7 @@
 import './App.css';
 import AboutUs from './components/About/About';
 import CallCenter from './components/CallCenter/CallCenter';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Information from './components/Information/Information';
 import InfoTime from './components/InformationAboutTime/InfoAboutTime';
@@ -21,6 +22,7 @@ function App() {
     <LoanTerm/>
     <Location/>
     <CallCenter/>
+    <Footer/>
     </>
   );
 }
