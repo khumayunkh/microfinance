@@ -2,6 +2,7 @@ import React from "react";
 import style from './footer.module.css'
 
 function Footer(){
+    
     return(
         <>
         <div className={style.container}>
@@ -19,13 +20,22 @@ function Footer(){
                     <button>Личный кабинет</button>
                 </div>
                 <div className={style.about_company}>
-
+                    <h2>О компании</h2>
+                    <h2>Услуги</h2>
+                    <h2>Тарифы</h2>
+                    <h2>Способы погашения</h2>
+                    
                 </div>
                 <div className={style.loan}>
-
+                    <h2>Правила предоставления займов</h2>
+                    <h2>Свидетельство МФО </h2>
+                    <h2>Политика по персональным данным</h2>
                 </div>
                 <div className={style.contact}>
-
+                    <h2>Образец заявленияна микрозайм</h2>
+                    <h2>Список участников </h2>
+                    <h2>Ответы на вопросы</h2>
+                    <h2>Контакты</h2>
                 </div>
             </div>
         </div>
