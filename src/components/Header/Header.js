@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import style from './header.module.css'
+import Menu from "../Burger/Burger";
 
 function Header(){
+    const [isOpen, setIsOpen] = useState(false);
     return(
         <>
         <div className={style.container}>
@@ -14,6 +16,9 @@ function Header(){
                         </div>
                         <h1>Монета в кармане</h1>
                     </div>
+                    <span className={style.menu} onClick={() => setIsOpen(true)}>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png"/>
+                    </span>
                     <div className={style.call_in}>
                         <h2>+7 (495) 115-50-95</h2>
                         <button>Личный кабинет</button>
@@ -21,6 +26,7 @@ function Header(){
                 </div>
             </div>    
             <div className={style.information}>
+                <Menu isOpen={isOpen} onChange={setIsOpen}/>   
                 <h2>О компании</h2>                    
                 <h2>Услуги</h2>
                 <h2>Тарифы</h2>

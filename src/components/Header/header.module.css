@@ -104,6 +104,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.menu{
+    display: none;
+}
 
 .information h2{
     font-family: 'IBM Plex Sans';
@@ -182,6 +185,21 @@
 }
 
 @media(max-width:1150px){
+    .container{
+        height: 70px;
+    }
+    .header{
+        height: 80%;
+        border-bottom:none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .call{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .logo{
         display: flex;
         justify-content: start;
@@ -228,6 +246,16 @@
     .call_in h2{
         display: none;
     }
+    .information{
+        display: none;
+    }
+    .menu{
+        display: contents;
+    }
+
+    .menu img{
+        width: 25px;
+    }
 }
 
 @media(max-width:890px){
@@ -238,7 +266,7 @@
     }
     .call_in button{
         background-color: white;
-        width: 260px;
+        width: 240px;
         height: 35px;
         border: none;
         background: #FFFFFF;
@@ -253,13 +281,20 @@
     }
 }
 
+
 @media(max-width:780px){
+    .logo{
+        width: 15%;
+    }
     .logo h1{
         display: none;
     }
 }
 
 @media(max-width:560px){
+    .logo{
+        width: 35%;
+    }
     .call_in{
         width: 70%;
         display: flex;
@@ -267,7 +302,8 @@
         align-items: center;
     }
     .call_in button{
-        width: 220px;
+        width: 160px;
         height: 35px;
+        font-size: 12px;
     }
 }
