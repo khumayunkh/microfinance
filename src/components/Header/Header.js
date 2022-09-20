@@ -3,8 +3,7 @@ import style from './header.module.css'
 import BurgerMenu from "./../Burger/Burger";
 
 function Header(){
-    const [isOpen, setIsOpen] = useState(false);
-    
+    const [isOpen, setIsOpen] = useState(false)
     return(
         <>
         <div className={style.container}>
@@ -18,7 +17,7 @@ function Header(){
                         <h1>Монета в кармане</h1>
                     </div>
                     <span className={style.menu} onClick={() => setIsOpen(true)}>
-                        <img onClick={() => setIsOpen(true)} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png"/>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png"/>
                     </span>
                     <div className={style.call_in}>
                         <h2>+7 (495) 115-50-95</h2>

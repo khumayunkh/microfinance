@@ -3,6 +3,7 @@ import style from './about.module.css'
 import logo from './../../images/bussiness.svg'
 
 function AboutUs(){
+
     return(
         <>
         <div className={style.container}>
@@ -22,7 +23,7 @@ function AboutUs(){
                         качество и оперативность
                     </h2>
                 </div>
-                <img src={logo}/>    
+                <img cla src={logo}/>    
             </div>
         </div>
         </>

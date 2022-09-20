@@ -250,7 +250,7 @@
         display: none;
     }
     .menu{
-        display: flex;
+        display: contents;
     }
 
     .menu img{
