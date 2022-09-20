@@ -39,3 +39,31 @@
     color: #3F3E42;
 
 }
+
+
+@media(max-width:1290px){
+    .container{
+        height: 600px;
+    }
+    .about_us{
+        width: 85%;
+    }
+    .about_us_info h1{
+        font-family: 'IBM Plex Serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 82px;
+        color: #3F3E42;
+    }
+    
+    .about_us_info h2{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #3F3E42;
+    
+    }
+}
