@@ -4,7 +4,6 @@ import info from './../../images/Group.svg'
 import Coints from './../../images/Coints.png'
 
 function Information(){
-    
     return(
         <>
         <div className={style.container}>

@@ -70,3 +70,92 @@
 .cloud img{
     margin-top: 7%;
 }
+
+@media(max-width:1590px){
+    .puzzle{
+        justify-content: space-around;
+    }
+    .puzzle img{
+        width: 50%;
+    }
+    .cloud{
+        justify-content: space-around;
+    }
+    .cloud img{
+        width: 50%;
+    }
+}
+
+@media(max-width:1160px){
+    .puzzle h2{
+        font-size: 20px;
+    }
+    .puzzle{
+        height: 500px;  
+    }
+    .cloud h2{
+        font-size: 20px;
+    }
+    .cloud{
+        height: 500px;
+    }
+}
+
+@media(max-width:920px){
+    .puzzle h2{
+        font-size: 16px;
+    }
+    .puzzle{
+        height: 400px;  
+    }
+    .cloud h2{
+        font-size: 16px;
+    }
+    .cloud{
+        height: 400px;
+    }
+}
+
+@media(max-width:800px){
+    .puzzle h2{
+        font-size: 15px;
+    }
+    .puzzle{
+        height: 350px;  
+    }
+    .puzzle img{
+        width: 40%;
+    }
+    .cloud h2{
+        font-size: 15px;
+    }
+    .cloud img{
+        width: 40%;
+    }
+    .cloud{
+        height: 350px;
+    }
+}
+
+@media(max-width:750px){
+    .terms{
+        height: 780px;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .puzzle{
+        width: 95%;
+    }
+    .puzzle img{
+        width: 30%;
+    }
+    .cloud{
+        width: 95%;
+    }
+    .cloud img{
+        width: 30%;
+    }
+}
