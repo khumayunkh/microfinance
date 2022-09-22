@@ -70,6 +70,7 @@
 
 @media(max-width:800px){
     .loan h2{
+        margin-top: 10%;
         font-size: 15px;
     }
     .loan{
@@ -82,5 +83,8 @@
     .loan{
         height: 350px;
         background-size: 200px;
+    }
+    .loan h2{
+        line-height: 20px;
     }
 }
