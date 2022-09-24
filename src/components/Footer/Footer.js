@@ -2,7 +2,6 @@ import React from "react";
 import style from './footer.module.css'
 
 function Footer(){
-    
     return(
         <>
         <div className={style.container}>
@@ -15,7 +14,7 @@ function Footer(){
                         </div>
                         <h1>Монета в кармане</h1>
                     </div>
-                    <h2>+7 (495) 115-50-95</h2>
+                    <h2>+7(495)115-50-95</h2>
                     <h2>info@monetavkarmane.ru</h2>
                     <button>Личный кабинет</button>
                 </div>
